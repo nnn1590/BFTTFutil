@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("BFTTFutil")]
-[assembly: AssemblyDescription("A tool for encrypting\\decrypting BFTTF\\BFOTF from\to TTF\\OTF")]
+[assembly: AssemblyDescription("A tool for encrypting/decrypting BFTTF/BFOTF from/to TTF/OTF")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CHEMI6DER")]
 [assembly: AssemblyProduct("BFTTFutil")]

@@ -15,11 +15,11 @@ namespace BFTTFify
 
         static void Main(string[] args)
         {
-            Console.WriteLine("BFTTFutil, a tool for encrypting\\decrypting BFTTF\\BFOTF from\\to TTF\\OTF\nCreated by CHEMI6DER Copyright 2018");
+            Console.WriteLine("BFTTFutil, a tool for encrypting/decrypting BFTTF/BFOTF from/to TTF/OTF\nCreated by CHEMI6DER Copyright 2018");
             //See if we have 3 arguments, otherwise print usage
             if (args.Length != 3)
             {
-                Console.WriteLine("Usage: bfttfutil.exe <mode> <infile> <outfile>\nModes:\n    -enc_nx   Encrypts TTF\\OTF for use with NX\n    -enc_cafe Encrypts TTF\\OTF for use with CAFE\n    -enc_win  Encrypts TTF\\OTF for use with WINDOWS?\n    -dec      Decrypts BFTTF\\BFOTF to TTF\\OTF");
+                Console.WriteLine("Usage: bfttfutil.exe <mode> <infile> <outfile>\nModes:\n    -enc_nx   Encrypts TTF/OTF for use with NX\n    -enc_cafe Encrypts TTF/OTF for use with CAFE\n    -enc_win  Encrypts TTF/OTF for use with WINDOWS?\n    -dec      Decrypts BFTTF/BFOTF to TTF/OTF");
                 return;
             }
             //Check if input file exists
@@ -53,7 +53,7 @@ namespace BFTTFify
             else
             {
                 Console.WriteLine("Err 0x1: Invalid operation mode");
-                Console.WriteLine("Usage: bfttfify.exe <mode> <infile> <outfile>\nModes:\n    -enc_nx   Encrypts TTF\\OTF for use with NX\n    -enc_cafe Encrypts TTF\\OTF for use with CAFE\n    -enc_win  Encrypts TTF\\OTF for use with WINDOWS?\n    -dec      Decrypts BFTTF\\BFOTF to TTF\\OTF(NX only for now)");
+                Console.WriteLine("Usage: bfttfify.exe <mode> <infile> <outfile>\nModes:\n    -enc_nx   Encrypts TTF/OTF for use with NX\n    -enc_cafe Encrypts TTF/OTF for use with CAFE\n    -enc_win  Encrypts TTF/OTF for use with WINDOWS?\n    -dec      Decrypts BFTTF/BFOTF to TTF/OTF(NX only for now)");
                 return;
             }
 
@@ -133,7 +133,7 @@ namespace BFTTFify
                     dec_key = 2364726489U;
                     break;
                 default:
-                    Console.WriteLine("Err 0x2: Input file isn't a BFTTF\\BFOTF");
+                    Console.WriteLine("Err 0x2: Input file isn't a BFTTF/BFOTF");
                     break;
             }
 
